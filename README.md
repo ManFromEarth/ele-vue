@@ -37,25 +37,12 @@ npm run dev
 
 >  开发环境 macOS 10.12.3  Chrome 56  nodejs 6.10.0
 
->  如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎 PR 👍
-
 ## 关于 数据接口 的说明🤔
-
-### 2017-05-30
-
 由于一些原因，以前的数据接口无法使用，导致项目无法正常运行。
-
-
-
 # 效果演示
-
 [查看demo请戳这里](http://elm.cangdu.org/)（请用chrome手机模式预览）
-
 ### 移动端扫描下方二维码
-
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/ewm.png" width="250" height="250"/>
-
-
 
 # 目标功能
 - [x] 定位功能 -- 完成
@@ -98,24 +85,6 @@ npm run dev
 
 5、曾一度怀疑，花几个月的时间做这样一个项目到底有没有意义，本来只是想做一个小项目练练手，没想到后来越写越多，不过坚持下来后我相信一切都是值得的。
 
-6、项目已经完成，共45个页面。
-
-
-# 最终目标
-
-1、用node.js构建一个模拟外卖平台的后台系统。[地址在这里](https://github.com/bailicangdu/node-elm)
-
-2、利用 react-native 写出跨 Android 和 IOS 的原生APP版本。[地址在这里](https://github.com/bailicangdu/React-Native-elm)
-
-3、如果时间来的及，会出一卖家版本。
-
-所以我的目的是构建一个横跨前后端，移动IOS、Android的完整生态圈。
-
-。。。敬请期待
-
-
-
-
 # 部分截图
 
 
@@ -131,35 +100,25 @@ npm run dev
 
 
 ### 餐馆食品列表与购物车
-
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/shop_cart.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/shop_cart.gif" width="365" height="619"/>
 
 ### 确认订单页
-
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/confirm1.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/confirmOrder.gif" width="365" height="619"/>
 
-
 ### 搜索页
-
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/search.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/search.gif" width="365" height="619"/>
 
 
 ### 登录页
-
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/login1.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/login.gif" width="365" height="619"/>
 
 
 ### 个人中心
-
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/profile.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/profile.gif" width="365" height="619"/>
 
 
 
-
-
-
 # 项目布局
-
 ```
 .
 ├── build                                       // webpack配置文件
@@ -287,6 +246,5 @@ npm run dev
 ├── favicon.ico                                 // 图标
 ├── index.html                                  // 入口html文件
 .
-
 56 directories, 203 files
 ```
