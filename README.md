@@ -8,7 +8,7 @@
 
 此项目涉及注册、登录、商品展示、购物车、下单等等，是一个完整的流程，一般公司即便是官网的单页面项目都没这么复杂。相信大部分公司的其他单页面应用也不在话下，即便更复杂，也不会比这个高到哪里去。
 
-因为利用业余时间来做，年前就开始写，又跨个年，周期有点长，项目从零布局到完成共用了2个多月的时间，目前项目已经完成，正在进行一些性能的优化。
+因为利用空闲时间来做，项目从零布局到完成共用了2个多月的时间，目前项目已经完成，正在进行一些性能的优化。
 
 __注：正常下单请选择饿了么官方客户端。__
 
@@ -31,16 +31,19 @@ npm run dev
 ```
 
 # 说明
-
-
 >  开发环境 macOS 10.12.3  Chrome 56  nodejs 6.10.0
 
-## 关于 数据接口 的说明🤔
+### 关于 数据接口 的说明🤔
 由于一些原因，以前的数据接口无法使用，导致项目无法正常运行。
+
+
+
 # 效果演示
 [查看demo请戳这里](http://elm.cangdu.org/)（请用chrome手机模式预览）
 ### 移动端扫描下方二维码
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/ewm.png" width="250" height="250"/>
+
+
 
 # 目标功能
 - [x] 定位功能 -- 完成
@@ -71,6 +74,7 @@ npm run dev
 
 
 
+
 # 总结
 
 1、因为并不是elm官方，而且因为要开代理，必须在pc端打开，最多只能做到下单这一步，下单成功后可以在手机客户端查看并付款。
@@ -83,19 +87,16 @@ npm run dev
 
 5、曾一度怀疑，花几个月的时间做这样一个项目到底有没有意义，本来只是想做一个小项目练练手，没想到后来越写越多，不过坚持下来后我相信一切都是值得的。
 
+
+
 # 部分截图
 
-
 ### 商铺列表页
-
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/msite.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/msite.gif" width="365" height="619"/>
 
 
 ### 商铺筛选页
-
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/food.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/food.gif" width="365" height="619"/>
-
-
 
 ### 餐馆食品列表与购物车
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/shop_cart.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/shop_cart.gif" width="365" height="619"/>
@@ -106,10 +107,8 @@ npm run dev
 ### 搜索页
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/search.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/search.gif" width="365" height="619"/>
 
-
 ### 登录页
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/login1.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/login.gif" width="365" height="619"/>
-
 
 ### 个人中心
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/profile.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/profile.gif" width="365" height="619"/>
@@ -244,5 +243,4 @@ npm run dev
 ├── favicon.ico                                 // 图标
 ├── index.html                                  // 入口html文件
 .
-56 directories, 203 files
 ```
