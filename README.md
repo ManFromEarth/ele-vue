@@ -1,4 +1,4 @@
-# 前言
+## 前言
 
 初学vue时曾在网上搜索vue的实战项目源码，无奈大部分都是简单的demo，对于深究vue没有太大的帮助，剩下的一些大部分都是像音乐播放器之类的展示型项目，交互没有预期那么复杂。但我们实际在工作中，经常会遇到有购物车的项目，这类项目因为涉及到money，所以对逻辑严谨度要求高，页面之间交互复杂，又会伴随着登录、注册、用户信息等等，常常会让我们很头疼。既然还没人用vue写过这样的项目，那不如我来写。
 
@@ -13,12 +13,12 @@
 __注：正常下单请选择饿了么官方客户端。__
 
 
-## 技术栈
+#### 技术栈
 
-vue2 + vuex + vue-router + webpack + ES6/7 + axios +  + flex 
+vue2 + vuex + vue-router + webpack + ES6/7 + axios +  + flex
 
 
-## 项目运行
+#### 项目运行
 ```
 git clone https://github.com/ManFromEarth/ele-vue.git  
 
@@ -30,22 +30,20 @@ npm run dev
 
 ```
 
-# 说明
+#### 说明
 >  开发环境 macOS 10.12.3  Chrome 56  nodejs 6.10.0
 
-### 关于 数据接口 的说明🤔
-由于一些原因，以前的数据接口无法使用，导致项目无法正常运行。
+#### 关于 数据接口 的说明🤔
+由于饿了么api接口的调整，导致有些数据接口无法使用。
 
-
-
-# 效果演示
+## 效果演示
 [查看demo请戳这里](http://cangdu.org:8001/)（请用chrome手机模式预览）
 ### 移动端扫描下方二维码
 <img src="./screenshots/liuluweb-qrcode.png" width="200" height="200"/>
 
 
 
-# 目标功能
+### 目标功能
 - [x] 定位功能 -- 完成
 - [x] 选择城市 -- 完成
 - [x] 搜索地址 -- 完成
@@ -75,7 +73,7 @@ npm run dev
 
 
 
-# 总结
+## 总结
 
 1、因为并不是elm官方，而且因为要开代理，必须在pc端打开，最多只能做到下单这一步，下单成功后可以在手机客户端查看并付款。
 
@@ -89,28 +87,28 @@ npm run dev
 
 
 
-# 部分截图
+## 部分截图
 
-### 商铺列表页
+#### 商铺列表页
 <img src="./screenshots/msite.png" width="365" height="619"/> <img src="./screenshots/msite.gif" width="365" height="619"/>
 
 
-### 商铺筛选页
+#### 商铺筛选页
 <img src="./screenshots/food.png" width="365" height="619"/> <img src="./screenshots/food.gif" width="365" height="619"/>
 
-### 餐馆食品列表与购物车
+#### 餐馆食品列表与购物车
 <img src="./screenshots/shop_cart.png" width="365" height="619"/> <img src="./screenshots/shop_cart.gif" width="365" height="619"/>
 
-### 确认订单页
+#### 确认订单页
 <img src="./screenshots/confirm1.png" width="365" height="619"/> <img src="./screenshots/confirmOrder.gif" width="365" height="619"/>
 
-### 搜索页
+#### 搜索页
 <img src="./screenshots/search.png" width="365" height="619"/> <img src="./screenshots/search.gif" width="365" height="619"/>
 
-### 登录页
+#### 登录页
 <img src="./screenshots/login1.png" width="365" height="619"/> <img src="./screenshots/login.gif" width="365" height="619"/>
 
-### 个人中心
+#### 个人中心
 <img src="./screenshots/profile.png" width="365" height="619"/> <img src="./screenshots/profile.gif" width="365" height="619"/>
 
 
@@ -129,7 +127,7 @@ npm run dev
 │   │   │   ├── buyCart.vue                     // 购物车组件
 │   │   │   ├── computeTime.vue                 // 倒计时组件
 │   │   │   ├── loading.vue                     // 页面初始化加载数据的动画组件
-│   │   │   ├── mixin.js                        // 组件混合(包括：指令-下拉加载更多，处理图片地址)
+│   │   │   ├── mixin.js                        // 组件混合(包括：指令-下拉加载更多)
 │   │   │   ├── ratingStar.vue                  // 评论的五颗星组件
 │   │   │   └── shoplist.vue                    // msite和shop页面的餐馆列表公共组件
 │   │   ├── footer
@@ -155,7 +153,7 @@ npm run dev
 │   │   │       ├── exchange.vue                // 兑换红包
 │   │   │       ├── hbDescription.vue           // 红包说明
 │   │   │       └── hbHistory.vue               // 历史红包
-│   │   ├── city                 
+│   │   ├── city
 │   │   │   └── city.vue                        // 当前城市页
 │   │   ├── confirmOrder
 │   │   │   ├── children
@@ -166,7 +164,7 @@ npm run dev
 │   │   │   │   ├── chooseAddress.vue           // 选择地址页
 │   │   │   │   ├── invoice.vue                 // 选择发票页
 │   │   │   │   ├── payment.vue                 // 付款页
-│   │   │   │   ├── remark.vue                  // 订单备注页 
+│   │   │   │   ├── remark.vue                  // 订单备注页
 │   │   │   │   └── userValidation.vue          // 用户验证页
 │   │   │   └── confirmOrder.vue                // 确认订单页
 │   │   ├── download
